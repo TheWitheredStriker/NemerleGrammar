@@ -87,7 +87,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(\_|and|as|assert|base|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|lock|namespace|out|params|partial|ref|requires|set|syntax|throw|typeof|unchecked|using|with|where)\b</string>
+			<string>\b(\_|and|as|assert|async|base|callcomp|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|log|lock|namespace|out|params|partial|ref|requires|set|syntax|throw|typeof|unchecked|using|with|whenlogging|where|xml|yield|yieldcomp)\b</string>
 			<key>name</key>
 			<string>keyword.other.nemerle</string>
 		</dict>
@@ -99,7 +99,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(abstract|def|delegate|event|extern|internal|mutable|override|public|private|protected|sealed|static|volatile|virtual|new)\b</string>
+			<string>\b(abstract|comp|def|defcomp|delegate|enumerable|event|extern|internal|mutable|override|public|private|protected|sealed|static|volatile|virtual|new)\b</string>
 			<key>name</key>
 			<string>storage.modifier.nemerle</string>
 		</dict>
