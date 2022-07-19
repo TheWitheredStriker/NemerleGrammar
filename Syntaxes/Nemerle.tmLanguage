@@ -75,7 +75,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(catch|else|finally|for|foreach|if|match|matches|otherwise|repeat|try|unless|when|while)\b</string>
+			<string>\b(break|catch|continue|else|finally|for|foreach|if|match|matches|otherwise|repeat|try|unless|when|while)\b</string>
 			<key>name</key>
 			<string>keyword.control.nemerle</string>
 		</dict>
@@ -87,7 +87,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(\_|and|as|assert|async|base|callcomp|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|log|lock|namespace|out|params|partial|ref|requires|set|syntax|throw|typeof|unchecked|using|with|whenlogging|where|xml|yield|yieldcomp)\b</string>
+			<string>\b(\_|and|as|assert|async|base|callcomp|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|log|lock|namespace|out|params|partial|ref|requires|return|set|syntax|throw|typeof|unchecked|using|with|whenlogging|where|xml|yield|yieldcomp)\b</string>
 			<key>name</key>
 			<string>keyword.other.nemerle</string>
 		</dict>
