@@ -29,7 +29,7 @@ patterns:
   name: keyword.control.nemerle
 - match: (\+|\-|\*|\/|\%)\=?
   name: keyword.operator.nemerle
-- match: \b(\_|and|as|assert|async|base|callcomp|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|log|lock|namespace|out|params|partial|ref|requires|return|set|syntax|throw|typeof|unchecked|using|with|whenlogging|where|xml|yield|yieldcomp)\b
+- match: \b(\_|and|as|assert|async|base|callcomp|checked|do|ensures|expose|fun|get|ignore|implements|in|invariant|is|log|lock|namespace|not|or|out|params|partial|ref|requires|return|set|syntax|throw|typeof|unchecked|using|with|whenlogging|where|xml|yield|yieldcomp)\b
   name: keyword.other.nemerle
 - match: \b(array|bool|byte|char|class|decimal|double|enum|float|int|interface|list|long|macro|module|object|sbyte|short|string|struct|type|uint|ulong|ushort|variant|void)\b
   name: storage.type.nemerle
